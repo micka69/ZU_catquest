@@ -1,0 +1,36 @@
+.scoreboard {
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.scoreboard h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.scoreboard table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.scoreboard th, .scoreboard td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.scoreboard th {
+    background-color: #444;
+}
+
+.scoreboard tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
